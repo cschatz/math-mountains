@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <event-mouse-enter-exit-actor comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <toggle-image comment="false" x="26" y="42">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="1"/>
+                </toggle-image>
+                <dolater comment="false" x="26" y="69">
+                    <group eventID="1" id="-1">
+                        <toggle-image comment="false" x="37" y="96">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                        </toggle-image>
+                    </group>
+                    <int id="0" val="0.5"/>
+                    <ACTOR eid="this" id="2"/>
+                </dolater>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="2"/>
+        </event-mouse-enter-exit-actor>
+    </group>
+    <group eventID="1" id="1">
+        <clear-filter comment="false" x="148" y="165">
+            <ACTOR eid="this" id="0"/>
+        </clear-filter>
+        <apply-filter comment="false" x="148" y="192">
+            <ACTOR eid="this" id="0"/>
+            <filter-bright comment="false" id="1" x="0" y="0">
+                <int id="0" val="0"/>
+            </filter-bright>
+        </apply-filter>
+    </group>
+    <group eventID="1" id="-1">
+        <filter-tint comment="false" x="368" y="365">
+            <color b="255" g="204" id="0" r="204"/>
+            <int id="1" val="100"/>
+        </filter-tint>
+    </group>
+</groups>

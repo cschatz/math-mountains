@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <set-color comment="false" x="26" y="40">
+                    <color id="0" vid="4"/>
+                </set-color>
+                <set-stroke-color comment="false" x="26" y="67">
+                    <color id="0" vid="5"/>
+                </set-stroke-color>
+                <set-thickness comment="false" x="26" y="94">
+                    <int id="0" val="3"/>
+                </set-thickness>
+                <drawfill-poly comment="false" x="26" y="114">
+                    <group eventID="1" id="-1">
+                        <add-to-poly comment="false" x="37" y="141">
+                            <get-wh comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="2"/>
+                            </get-wh>
+                            <int id="1" val="0"/>
+                        </add-to-poly>
+                        <add-to-poly comment="false" x="37" y="174">
+                            <get-wh comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="0"/>
+                            </get-wh>
+                            <get-wh comment="false" id="1" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="1"/>
+                            </get-wh>
+                        </add-to-poly>
+                        <add-to-poly comment="false" x="37" y="207">
+                            <int id="0" val="0"/>
+                            <get-wh comment="false" id="1" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="1"/>
+                            </get-wh>
+                        </add-to-poly>
+                    </group>
+                    <int id="0" val="0"/>
+                </drawfill-poly>
+                <set-val-1-6 comment="false" x="26" y="252">
+                    <minus comment="false" id="0" x="0" y="0">
+                        <minus comment="false" id="0" x="0" y="0">
+                            <get-wh comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="1"/>
+                            </get-wh>
+                            <get-font-height2-new comment="false" id="1" x="0" y="0">
+                                <font eid="var" id="0" vid="3"/>
+                            </get-font-height2-new>
+                        </minus>
+                        <int id="1" val="5"/>
+                    </minus>
+                </set-val-1-6>
+                <set-val-1-8 comment="false" x="26" y="295">
+                    <div comment="false" id="0" x="0" y="0">
+                        <get-wh comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                        </get-wh>
+                        <int id="1" val="4"/>
+                    </div>
+                </set-val-1-8>
+                <set-val-1-9 comment="false" x="26" y="333">
+                    <times comment="false" id="0" x="0" y="0">
+                        <get-wh comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                        </get-wh>
+                        <int id="1" val="0.60"/>
+                    </times>
+                </set-val-1-9>
+                <set-val-1-7 comment="false" x="26" y="371">
+                    <div comment="false" id="0" x="0" y="0">
+                        <get-wh comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                        </get-wh>
+                        <int id="1" val="4"/>
+                    </div>
+                </set-val-1-7>
+                <set-val-1-17 comment="false" x="26" y="409">
+                    <div comment="false" id="0" x="0" y="0">
+                        <get-wh comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                        </get-wh>
+                        <int id="1" val="3"/>
+                    </div>
+                </set-val-1-17>
+                <set-font-new comment="false" x="26" y="447">
+                    <font eid="var" id="0" vid="3"/>
+                </set-font-new>
+                <draw-text comment="false" x="26" y="474">
+                    <get-val-1-1 comment="false" id="0" x="0" y="0"/>
+                    <minus comment="false" id="1" x="0" y="0">
+                        <get-val-1-7 comment="false" id="0" x="0" y="0"/>
+                        <div comment="false" id="1" x="0" y="0">
+                            <get-font-width2-new comment="false" id="0" x="0" y="0">
+                                <font eid="var" id="0" vid="3"/>
+                                <get-val-1-1 comment="false" id="1" x="0" y="0"/>
+                            </get-font-width2-new>
+                            <int id="1" val="2"/>
+                        </div>
+                    </minus>
+                    <get-val-1-6 comment="false" id="2" x="0" y="0"/>
+                </draw-text>
+                <draw-text comment="false" x="26" y="522">
+                    <get-val-1-2 comment="false" id="0" x="0" y="0"/>
+                    <minus comment="false" id="1" x="0" y="0">
+                        <times comment="false" id="0" x="0" y="0">
+                            <get-val-1-7 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="3"/>
+                        </times>
+                        <div comment="false" id="1" x="0" y="0">
+                            <get-font-width2-new comment="false" id="0" x="0" y="0">
+                                <font eid="var" id="0" vid="3"/>
+                                <get-val-1-1 comment="false" id="1" x="0" y="0"/>
+                            </get-font-width2-new>
+                            <int id="1" val="2"/>
+                        </div>
+                    </minus>
+                    <get-val-1-6 comment="false" id="2" x="0" y="0"/>
+                </draw-text>
+                <draw-text comment="false" x="26" y="570">
+                    <get-val-1-16 comment="false" id="0" x="0" y="0"/>
+                    <minus comment="false" id="1" x="0" y="0">
+                        <get-wh comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="2"/>
+                        </get-wh>
+                        <div comment="false" id="1" x="0" y="0">
+                            <get-font-width2-new comment="false" id="0" x="0" y="0">
+                                <font eid="var" id="0" vid="3"/>
+                                <get-val-1-16 comment="false" id="1" x="0" y="0"/>
+                            </get-font-width2-new>
+                            <int id="1" val="2"/>
+                        </div>
+                    </minus>
+                    <get-val-1-8 comment="false" id="2" x="0" y="0"/>
+                </draw-text>
+                <if comment="false" x="26" y="618">
+                    <group eventID="1" id="-1">
+                        <draw-text comment="false" x="37" y="648">
+                            <int id="0" val="+"/>
+                            <minus comment="false" id="1" x="0" y="0">
+                                <get-wh comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="2"/>
+                                </get-wh>
+                                <div comment="false" id="1" x="0" y="0">
+                                    <get-font-width2-new comment="false" id="0" x="0" y="0">
+                                        <font eid="var" id="0" vid="3"/>
+                                        <int id="1" val="+"/>
+                                    </get-font-width2-new>
+                                    <int id="1" val="2"/>
+                                </div>
+                            </minus>
+                            <get-val-1-6 comment="false" id="2" x="0" y="0"/>
+                        </draw-text>
+                        <draw-text comment="false" x="37" y="691">
+                            <int id="0" val="="/>
+                            <minus comment="false" id="1" x="0" y="0">
+                                <get-wh comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="2"/>
+                                </get-wh>
+                                <div comment="false" id="1" x="0" y="0">
+                                    <get-font-width2-new comment="false" id="0" x="0" y="0">
+                                        <font eid="var" id="0" vid="3"/>
+                                        <int id="1" val="="/>
+                                    </get-font-width2-new>
+                                    <int id="1" val="2"/>
+                                </div>
+                            </minus>
+                            <get-wh comment="false" id="2" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="3"/>
+                            </get-wh>
+                        </draw-text>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-1-14 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="0"/>
+                    </eq>
+                </if>
+                <else comment="false" x="26" y="746">
+                    <group eventID="1" id="-1">
+                        <draw-text comment="false" x="37" y="766">
+                            <int id="0" val="="/>
+                            <minus comment="false" id="1" x="0" y="0">
+                                <get-wh comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="2"/>
+                                </get-wh>
+                                <div comment="false" id="1" x="0" y="0">
+                                    <get-font-width2-new comment="false" id="0" x="0" y="0">
+                                        <font eid="var" id="0" vid="3"/>
+                                        <int id="1" val="="/>
+                                    </get-font-width2-new>
+                                    <int id="1" val="2"/>
+                                </div>
+                            </minus>
+                            <get-val-1-6 comment="false" id="2" x="0" y="0"/>
+                        </draw-text>
+                    </group>
+                </else>
+                <if comment="false" x="26" y="821">
+                    <group eventID="1" id="-1">
+                        <draw-text comment="false" x="37" y="851">
+                            <int id="0" val="-"/>
+                            <minus comment="false" id="1" x="0" y="0">
+                                <get-val-1-17 comment="false" id="0" x="0" y="0"/>
+                                <div comment="false" id="1" x="0" y="0">
+                                    <get-font-width2-new comment="false" id="0" x="0" y="0">
+                                        <font eid="var" id="0" vid="3"/>
+                                        <int id="1" val="-"/>
+                                    </get-font-width2-new>
+                                    <int id="1" val="2"/>
+                                </div>
+                            </minus>
+                            <get-wh comment="false" id="2" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="3"/>
+                            </get-wh>
+                        </draw-text>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-1-14 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="1"/>
+                    </eq>
+                </if>
+                <else-if comment="false" x="26" y="906">
+                    <group eventID="1" id="-1">
+                        <draw-text comment="false" x="37" y="936">
+                            <int id="0" val="-"/>
+                            <minus comment="false" id="1" x="0" y="0">
+                                <times comment="false" id="0" x="0" y="0">
+                                    <get-val-1-17 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="2"/>
+                                </times>
+                                <div comment="false" id="1" x="0" y="0">
+                                    <get-font-width2-new comment="false" id="0" x="0" y="0">
+                                        <font eid="var" id="0" vid="3"/>
+                                        <int id="1" val="-"/>
+                                    </get-font-width2-new>
+                                    <int id="1" val="2"/>
+                                </div>
+                            </minus>
+                            <get-wh comment="false" id="2" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="3"/>
+                            </get-wh>
+                        </draw-text>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-1-14 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="2"/>
+                    </eq>
+                </else-if>
+                <set-color comment="false" x="26" y="991">
+                    <color id="0" vid="15"/>
+                </set-color>
+                <if comment="false" x="26" y="1018">
+                    <group eventID="1" id="-1">
+                        <drawfill-circle comment="false" x="37" y="1048">
+                            <int id="0" val="1"/>
+                            <get-wh comment="false" id="1" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="2"/>
+                            </get-wh>
+                            <plus comment="false" id="2" x="0" y="0">
+                                <get-val-1-8 comment="false" id="0" x="0" y="0"/>
+                                <div comment="false" id="1" x="0" y="0">
+                                    <get-font-height2-new comment="false" id="0" x="0" y="0">
+                                        <font eid="var" id="0" vid="3"/>
+                                    </get-font-height2-new>
+                                    <int id="1" val="2"/>
+                                </div>
+                            </plus>
+                            <div comment="false" id="3" x="0" y="0">
+                                <get-font-width2-new comment="false" id="0" x="0" y="0">
+                                    <font eid="var" id="0" vid="3"/>
+                                    <int id="1" val="88"/>
+                                </get-font-width2-new>
+                                <int id="1" val="2"/>
+                            </div>
+                        </drawfill-circle>
+                        <draw-text comment="false" x="37" y="1098">
+                            <int id="0" val="?"/>
+                            <minus comment="false" id="1" x="0" y="0">
+                                <get-wh comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="2"/>
+                                </get-wh>
+                                <div comment="false" id="1" x="0" y="0">
+                                    <get-font-width2-new comment="false" id="0" x="0" y="0">
+                                        <font eid="var" id="0" vid="3"/>
+                                        <int id="1" val="?"/>
+                                    </get-font-width2-new>
+                                    <int id="1" val="2"/>
+                                </div>
+                            </minus>
+                            <get-val-1-8 comment="false" id="2" x="0" y="0"/>
+                        </draw-text>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-1-14 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="0"/>
+                    </eq>
+                </if>
+                <else-if comment="false" x="26" y="1153">
+                    <group eventID="1" id="-1">
+                        <drawfill-circle comment="false" x="37" y="1183">
+                            <int id="0" val="1"/>
+                            <get-val-1-7 comment="false" id="1" x="0" y="0"/>
+                            <plus comment="false" id="2" x="0" y="0">
+                                <get-val-1-6 comment="false" id="0" x="0" y="0"/>
+                                <div comment="false" id="1" x="0" y="0">
+                                    <get-font-height2-new comment="false" id="0" x="0" y="0">
+                                        <font eid="var" id="0" vid="3"/>
+                                    </get-font-height2-new>
+                                    <int id="1" val="2"/>
+                                </div>
+                            </plus>
+                            <div comment="false" id="3" x="0" y="0">
+                                <get-font-width2-new comment="false" id="0" x="0" y="0">
+                                    <font eid="var" id="0" vid="3"/>
+                                    <int id="1" val="88"/>
+                                </get-font-width2-new>
+                                <int id="1" val="2"/>
+                            </div>
+                        </drawfill-circle>
+                        <draw-text comment="false" x="37" y="1233">
+                            <int id="0" val="?"/>
+                            <minus comment="false" id="1" x="0" y="0">
+                                <get-val-1-7 comment="false" id="0" x="0" y="0"/>
+                                <div comment="false" id="1" x="0" y="0">
+                                    <get-font-width2-new comment="false" id="0" x="0" y="0">
+                                        <font eid="var" id="0" vid="3"/>
+                                        <int id="1" val="?"/>
+                                    </get-font-width2-new>
+                                    <int id="1" val="2"/>
+                                </div>
+                            </minus>
+                            <get-val-1-6 comment="false" id="2" x="0" y="0"/>
+                        </draw-text>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-1-14 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="1"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="1288">
+                    <group eventID="1" id="-1">
+                        <drawfill-circle comment="false" x="37" y="1318">
+                            <int id="0" val="1"/>
+                            <times comment="false" id="1" x="0" y="0">
+                                <get-val-1-7 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="3"/>
+                            </times>
+                            <plus comment="false" id="2" x="0" y="0">
+                                <get-val-1-6 comment="false" id="0" x="0" y="0"/>
+                                <div comment="false" id="1" x="0" y="0">
+                                    <get-font-height2-new comment="false" id="0" x="0" y="0">
+                                        <font eid="var" id="0" vid="3"/>
+                                    </get-font-height2-new>
+                                    <int id="1" val="2"/>
+                                </div>
+                            </plus>
+                            <div comment="false" id="3" x="0" y="0">
+                                <get-font-width2-new comment="false" id="0" x="0" y="0">
+                                    <font eid="var" id="0" vid="3"/>
+                                    <int id="1" val="88"/>
+                                </get-font-width2-new>
+                                <int id="1" val="2"/>
+                            </div>
+                        </drawfill-circle>
+                        <draw-text comment="false" x="37" y="1368">
+                            <int id="0" val="?"/>
+                            <minus comment="false" id="1" x="0" y="0">
+                                <times comment="false" id="0" x="0" y="0">
+                                    <get-val-1-7 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="3"/>
+                                </times>
+                                <div comment="false" id="1" x="0" y="0">
+                                    <get-font-width2-new comment="false" id="0" x="0" y="0">
+                                        <font eid="var" id="0" vid="3"/>
+                                        <int id="1" val="?"/>
+                                    </get-font-width2-new>
+                                    <int id="1" val="2"/>
+                                </div>
+                            </minus>
+                            <get-val-1-6 comment="false" id="2" x="0" y="0"/>
+                        </draw-text>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-1-14 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="2"/>
+                    </eq>
+                </else-if>
+            </group>
+        </draw>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <event-custom comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <scaleTo comment="false" x="26" y="40">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="100"/>
+                    <int id="2" val="100"/>
+                    <int id="3" val="1"/>
+                    <int id="4" val="0"/>
+                </scaleTo>
+                <dolater comment="false" x="26" y="67">
+                    <group eventID="6" id="-1">
+                        <showhide-layer2 comment="false" x="37" y="94">
+                            <int id="0" val="1"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="1"/>
+                        </showhide-layer2>
+                        <set-game-val-0 comment="false" x="37" y="121">
+                            <int id="0" val="normal"/>
+                        </set-game-val-0>
+                    </group>
+                    <int id="0" val="1.1"/>
+                    <ACTOR eid="lastcreated" id="2"/>
+                </dolater>
+            </group>
+            <int id="0" val="Appear"/>
+        </event-custom>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <scaleTo comment="false" x="26" y="40">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="0"/>
+                    <int id="3" val="0"/>
+                    <int id="4" val="0"/>
+                </scaleTo>
+                <dolater comment="false" x="26" y="67">
+                    <group eventID="3" id="-1">
+                        <set-val-1-11 comment="false" x="37" y="94">
+                            <get-xy comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="0"/>
+                            </get-xy>
+                        </set-val-1-11>
+                        <set-val-1-12 comment="false" x="37" y="127">
+                            <get-xy comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="1"/>
+                            </get-xy>
+                        </set-val-1-12>
+                    </group>
+                    <int id="0" val=".2"/>
+                    <ACTOR eid="this" id="2"/>
+                </dolater>
+            </group>
+        </init>
+    </group>
+    <group eventID="3" id="-1"/>
+    <group eventID="4" id="0">
+        <event-custom comment="false" x="15" y="15">
+            <group eventID="4" id="-1">
+                <scaleTo comment="false" x="26" y="40">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="0"/>
+                    <int id="3" val="1.5"/>
+                    <int id="4" val="0"/>
+                </scaleTo>
+                <moveToBy comment="false" x="26" y="67">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="0"/>
+                    <div comment="false" id="2" x="0" y="0">
+                        <screen-wh comment="false" id="0" x="0" y="0">
+                            <int id="0" val="0"/>
+                        </screen-wh>
+                        <int id="1" val="2"/>
+                    </div>
+                    <neg comment="false" id="3" x="0" y="0">
+                        <div comment="false" id="0" x="0" y="0">
+                            <screen-wh comment="false" id="0" x="0" y="0">
+                                <int id="0" val="1"/>
+                            </screen-wh>
+                            <int id="1" val="2"/>
+                        </div>
+                    </neg>
+                    <int id="4" val="1.5"/>
+                    <int id="5" val="10"/>
+                </moveToBy>
+                <dolater comment="false" x="26" y="117">
+                    <group eventID="4" id="-1">
+                        <set-xy comment="false" x="37" y="144">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                            <get-val-1-11 comment="false" id="2" x="0" y="0"/>
+                        </set-xy>
+                        <set-xy comment="false" x="37" y="176">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                            <get-val-1-12 comment="false" id="2" x="0" y="0"/>
+                        </set-xy>
+                    </group>
+                    <int id="0" val="1.6"/>
+                    <ACTOR eid="this" id="2"/>
+                </dolater>
+            </group>
+            <int id="0" val="Dismiss"/>
+        </event-custom>
+    </group>
+    <group eventID="4" id="-1"/>
+</groups>

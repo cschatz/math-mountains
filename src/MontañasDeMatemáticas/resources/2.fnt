@@ -1,0 +1,17 @@
+#
+#Sun Oct 11 20:11:29 PDT 2015
+monospace=false
+monospace.numerals=false
+style=plain
+tracking=0
+stroke.color=\#808080
+color=\#ffffff
+shadow.y=0
+family=SansSerif
+shadow.x=0
+shadow.color=\#000000
+gradient.offset=0
+shadow.blur=2
+stroke.size=1
+antialias=true
+size=32
