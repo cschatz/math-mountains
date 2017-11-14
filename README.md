@@ -7,3 +7,5 @@ This was created in Stencyl 2. Exporting a project from Stencyl seems to
 dump a bunch of extraneous files into the source directory -- this should
 probably be cleaned up at some point.
 
+The deployed Flash version of the game currently lives here:
+http://scinett.com/mla/
